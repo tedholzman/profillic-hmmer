@@ -44,7 +44,7 @@ On my system, the boost libraries are in /usr/local/lib, and boost includes are 
 # Unpack it.  From one dir above it:
 cd boost_1_46_1
 ./bootstrap.sh 
-sudo bjam install
+sudo ./bjam install
 cd ..
 
 # If you don't have write access to /usr/local/bin and /usr/local/include, you should be able to install BOOST in your home directory instead (see the Boost Getting Started docs at eg http://www.boost.org/doc/libs/1_46_1/more/getting_started/ .  Below where it says to link to /usr/local/lib and /usr/local/include, instead link to your local install dirs.
